@@ -1907,7 +1907,7 @@
 				)
 			)
 		)
-		(property "Value" "4.5k"
+		(property "Value" "4.53k"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "ac9cc1e9-7750-47a2-acc2-e52978afd8f9")
@@ -1953,7 +1953,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS020040??"
+		(property "OEPSPN" "OEPS020040"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3239,7 +3239,7 @@
 				)
 			)
 		)
-		(property "Value" "4.5k"
+		(property "Value" "4.53k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "9a2e251c-bc90-4506-a5ca-f253f59fbc76")
@@ -3285,7 +3285,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS020040??"
+		(property "OEPSPN" "OEPS020040"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13412,7 +13412,7 @@
 				)
 			)
 		)
-		(property "MPN" "ATXMEGA16A4U-AU"
+		(property "MPN" "ATXMEGA16A4U-A"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19520,7 +19520,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "B2B-PH-K-S(LF)(SN)"
+		(property "Value" "B2B-XH-A(LF)(SN)"
 			(at -3.3025 -3.8925 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31400,7 +31400,7 @@
 				)
 			)
 		)
-		(property "Value" "4.5k"
+		(property "Value" "4.53k"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "ad5c2fcc-88d0-4918-9e04-9cc3c486aaf9")
@@ -31446,7 +31446,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS020040??"
+		(property "OEPSPN" "OEPS020040"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32244,7 +32244,7 @@
 				)
 			)
 		)
-		(property "Value" "PMF170XP,115"
+		(property "Value" "DMP2035U-7"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "eb7bbc52-046f-4f5a-b774-ee6be077044f")
@@ -32290,7 +32290,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS060012"
+		(property "OEPSPN" "OEPS060011"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")

@@ -732,7 +732,7 @@
     "top_level_sheets": [
       {
         "filename": "harp timestamp generator Gen3.kicad_sch",
-        "name": "harp timestamp generator Gen3_1",
+        "name": "harp timestamp generator Gen3",
         "uuid": "37f4656a-fc1e-403f-990e-8468cac940f2"
       }
     ],
@@ -742,7 +742,7 @@
   "sheets": [
     [
       "37f4656a-fc1e-403f-990e-8468cac940f2",
-      "harp timestamp generator Gen3_1"
+      "harp timestamp generator Gen3"
     ],
     [
       "95e2c766-f78a-424c-954a-4aa4c2912e61",
