@@ -6074,7 +6074,7 @@
 				)
 			)
 		)
-		(property "MPN" "ATXMEGA16A4U-AU"
+		(property "MPN" "ATXMEGA16A4U-A"
 			(at 142.24 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -6085,7 +6085,7 @@
 				)
 			)
 		)
-		(property "DIGYKEY_PN" "ATXMEGA16A4U-AU-ND"
+		(property "OEPSPN" "OEPS080032"
 			(at 142.24 60.96 0)
 			(hide yes)
 			(show_name no)

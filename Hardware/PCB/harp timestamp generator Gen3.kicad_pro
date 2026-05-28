@@ -595,7 +595,7 @@
     },
     "bom_presets": [],
     "bom_settings": {
-      "exclude_dnp": false,
+      "exclude_dnp": true,
       "fields_ordered": [
         {
           "group_by": false,
@@ -683,26 +683,8 @@
         },
         {
           "group_by": false,
-          "label": "LCSC",
-          "name": "LCSC",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Datasheet1",
           "name": "Datasheet1",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "DIGYKEY_PN",
-          "name": "DIGYKEY_PN",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "DIGIKEY_PN",
-          "name": "DIGIKEY_PN",
           "show": false
         }
       ],
@@ -711,7 +693,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Footprint"
+      "sort_field": "Reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,

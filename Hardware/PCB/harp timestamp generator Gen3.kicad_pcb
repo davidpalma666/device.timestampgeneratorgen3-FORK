@@ -4595,19 +4595,6 @@
 				)
 			)
 		)
-		(property "LCSC" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7a9c8175-61c1-49a8-8052-66b368cbb061")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "TempCo" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -13438,12 +13425,12 @@
 				)
 			)
 		)
-		(property "DIGYKEY_PN" "ATXMEGA16A4U-AU-ND"
+		(property "OEPSPN" "OEPS080032"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1f946d5a-0da8-4447-a22c-9d2577647e11")
+			(uuid "02d49827-2ebb-48fd-8bcb-87e8fd84e467")
 			(effects
 				(font
 					(size 1 1)
@@ -22415,19 +22402,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4d4fff76-fbdb-4025-b937-774d53160853")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "585222ca-6717-4acb-8e59-43143c14a40a")
 			(effects
 				(font
 					(size 1 1)
@@ -32361,19 +32335,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c219e4d1-f01d-4867-aa41-a0ba9c0b08c7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "DIGIKEY_PN" "DMP2035U-7DICT-ND"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a424ce57-06a7-43da-8a49-60c94bfb27ff")
 			(effects
 				(font
 					(size 1 1)

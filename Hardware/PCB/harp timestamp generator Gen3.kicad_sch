@@ -12564,7 +12564,7 @@
 				)
 			)
 		)
-		(property "Value" "PMF170XP,115"
+		(property "Value" "DMP2035U-7"
 			(at 308.61 257.81 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12618,7 +12618,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS060012"
+		(property "OEPSPN" "OEPS060011"
 			(at 308.61 264.16 90)
 			(hide yes)
 			(show_name no)
@@ -12653,17 +12653,6 @@
 		)
 		(property "Voltage" ""
 			(at 308.61 264.16 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIGIKEY_PN" "DMP2035U-7DICT-ND"
-			(at 308.61 264.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13087,7 +13076,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.5k"
+		(property "Value" "4.53k"
 			(at 359.41 276.225 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13143,7 +13132,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "OEPSPN" "OEPS020040??"
+		(property "OEPSPN" "OEPS020040"
 			(at 356.87 274.32 0)
 			(hide yes)
 			(show_name no)
@@ -14070,17 +14059,6 @@
 				)
 			)
 		)
-		(property "LCSC" ""
-			(at 60.96 279.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "TempCo" ""
 			(at 60.96 279.4 0)
 			(hide yes)
@@ -14942,7 +14920,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.5k"
+		(property "Value" "4.53k"
 			(at 295.91 291.465 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14998,7 +14976,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "OEPSPN" "OEPS020040??"
+		(property "OEPSPN" "OEPS020040"
 			(at 298.45 289.56 0)
 			(hide yes)
 			(show_name no)
@@ -17204,7 +17182,7 @@
 				)
 			)
 		)
-		(property "Value" "B2B-PH-K-S(LF)(SN)"
+		(property "Value" "B2B-XH-A(LF)(SN)"
 			(at 521.335 308.61 0)
 			(hide yes)
 			(show_name no)
@@ -17737,17 +17715,6 @@
 				)
 			)
 		)
-		(property "LCSC" ""
-			(at 66.04 279.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "TempCo" ""
 			(at 66.04 279.4 0)
 			(hide yes)
@@ -18037,7 +18004,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.5k"
+		(property "Value" "4.53k"
 			(at 298.45 271.145 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18093,7 +18060,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "OEPSPN" "OEPS020040??"
+		(property "OEPSPN" "OEPS020040"
 			(at 300.99 269.24 0)
 			(hide yes)
 			(show_name no)
