@@ -541,7 +541,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.205,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -743,6 +743,10 @@
     [
       "37f4656a-fc1e-403f-990e-8468cac940f2",
       "harp timestamp generator Gen3"
+    ],
+    [
+      "2d2d3c6f-ba43-443e-b15e-efb6f4a02ec5",
+      "Power Management"
     ],
     [
       "95e2c766-f78a-424c-954a-4aa4c2912e61",

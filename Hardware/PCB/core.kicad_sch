@@ -4882,101 +4882,16 @@
 		)
 		(uuid "fa87e0dd-3ec5-4b8a-89a2-cc94a66b7632")
 	)
-	(global_label "FTDI_CTS"
-		(shape input)
-		(at 182.88 53.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "1dbce841-fef8-46e8-83ae-556157c15285")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.9841 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "FTDI_RTS"
-		(shape input)
-		(at 182.88 50.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "710473f8-339d-423c-b781-aa4b9de28c0e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.9841 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "FTDI_TXD"
-		(shape input)
-		(at 182.88 55.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "8dd4265f-da1c-4aac-809a-b4252f3c1e22")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.9841 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "FTDI_RXD"
+	(hierarchical_label "FTDI_RXD"
 		(shape input)
 		(at 182.88 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
 			(justify left)
 		)
-		(uuid "e203f45c-e54c-4ed0-bce0-867bc1f88cb7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.2804 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "03dd41cd-266b-4e22-a0c5-2d2874c6a6aa")
 	)
 	(hierarchical_label "BAT_READ"
 		(shape input)
@@ -4988,6 +4903,17 @@
 			(justify right)
 		)
 		(uuid "5cf98a8d-a6da-4b27-afce-5a35eec73850")
+	)
+	(hierarchical_label "FTDI_CTS"
+		(shape input)
+		(at 182.88 53.34 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "640cee62-e346-4080-b97d-ece655ab282a")
 	)
 	(hierarchical_label "DISCHARGE_BAT"
 		(shape input)
@@ -5021,6 +4947,28 @@
 			(justify right)
 		)
 		(uuid "85474107-8ecf-4e35-8d9d-ac0a9447f4b2")
+	)
+	(hierarchical_label "FTDI_RTS"
+		(shape input)
+		(at 182.88 50.8 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "da51c485-5455-4c31-aa2e-a6b60d179f3f")
+	)
+	(hierarchical_label "FTDI_TXD"
+		(shape input)
+		(at 182.88 55.88 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "e4df9996-2c60-447e-87fe-815a9693dd64")
 	)
 	(hierarchical_label "CHARGE_ENABLE"
 		(shape input)
@@ -10170,7 +10118,7 @@
 		(instances
 			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61"
-					(page "3")
+					(page "4")
 				)
 			)
 		)
@@ -10356,7 +10304,7 @@
 		(instances
 			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61"
-					(page "4")
+					(page "5")
 				)
 			)
 		)

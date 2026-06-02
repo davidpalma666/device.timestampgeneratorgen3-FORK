@@ -5,6 +5,223 @@
 	(uuid "f20de84d-b9aa-435f-bff8-7d2403f6038d")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector_Audio:AudioJack2_Ground"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "CLKIN?"
+				(at -5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "CLCK_JACK"
+				(at -5.08 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "harp_expander_output:35RASMT2BHNTRX"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Audio Jack, 2 Poles (Mono / TS), Grounded Sleeve"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "OEPSPN" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "35RASMT2BHNTRX"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "audio jack receptacle mono phone headphone TS connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Jack*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AudioJack2_Ground_0_1"
+				(rectangle
+					(start -2.54 -2.54)
+					(end -3.81 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.635 -0.635) (xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 3.81)
+					(end -2.54 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -0.635 2.54) (xy -0.635 0) (xy -1.27 -0.635) (xy -1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AudioJack2_Ground_1_1"
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -342,242 +559,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "harp_timestamp_generator_Gen3:35RASMT2BHNTRX"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "CLCKOUT"
-				(at -2.54 6.604 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "CONN JACK"
-				(at -2.54 -6.096 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "harp_timestamp_generator_Gen3:35RASMT2BHNTRX"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "CONN JACK STEREO 3.5MM SMD R/A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "35RASMT2BHNTRX"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "DIGIKEY_PN" "SC1489-1-ND"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "35RASMT2BHNTRX_1_0"
-				(rectangle
-					(start -5.207 2.667)
-					(end -6.604 -2.667)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.524) (xy -3.048 2.286)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.016) (xy -0.508 1.778)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 5.08) (xy -2.54 1.524)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 2.54) (xy 0 1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 5.08) (xy 1.016 5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 1.524 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy -5.207 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 5.08 180)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.524 1.524)
 							)
 						)
 					)
@@ -1615,12 +1596,6 @@
 		(uuid "2b587d70-7b53-4a13-bd7e-98f1b0f6d0e8")
 	)
 	(junction
-		(at 243.84 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2c73afca-f4bc-4bf6-a512-c4405917b0a2")
-	)
-	(junction
 		(at 243.84 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1633,10 +1608,10 @@
 		(uuid "3a32020d-a6eb-408a-b93c-74a90bd33109")
 	)
 	(junction
-		(at 243.84 92.71)
+		(at 234.95 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "439b46db-de2c-4754-b7d6-627fe84425e3")
+		(uuid "3e35cd55-f3e1-4ea7-8f4e-135a9c85db97")
 	)
 	(junction
 		(at 182.88 39.37)
@@ -1645,10 +1620,10 @@
 		(uuid "4fd0cfc7-e41f-46fa-8b27-205ab4853256")
 	)
 	(junction
-		(at 111.76 127)
+		(at 111.76 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5d418012-216a-41b3-95aa-b575af6ec781")
+		(uuid "633d1893-3dfa-4df0-b3ba-d7aeabd58422")
 	)
 	(junction
 		(at 106.68 109.22)
@@ -1657,16 +1632,16 @@
 		(uuid "65c6c114-5990-4a94-a7be-df61e8418533")
 	)
 	(junction
-		(at 111.76 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "69289153-cfc0-455f-b321-84532d59501f")
-	)
-	(junction
 		(at 111.76 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "715af209-9192-4f32-9f1c-d5eaaee88295")
+	)
+	(junction
+		(at 111.76 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71d08c4a-a497-438a-a216-2fb22c17d43e")
 	)
 	(junction
 		(at 111.76 38.1)
@@ -1681,10 +1656,16 @@
 		(uuid "95fcea66-a008-4c71-aaeb-874e6b451534")
 	)
 	(junction
-		(at 234.95 135.89)
+		(at 243.84 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "aa16a2d1-3a96-4461-be1f-a17de94307fd")
+		(uuid "988bb9f2-1bde-4077-b3c0-059e8f94860e")
+	)
+	(junction
+		(at 243.84 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7dcddbb-9c80-4e80-b3c3-e45b128a34a2")
 	)
 	(junction
 		(at 106.68 144.78)
@@ -1720,13 +1701,13 @@
 		(at 106.68 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dfb7291d-f2e5-4069-ab51-7a2359f8d367")
+		(uuid "dea9e337-0089-4d85-88c0-5dcde2f7c142")
 	)
 	(junction
-		(at 111.76 55.88)
+		(at 111.76 127)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ebf59f45-dbd7-44f5-a516-21386dd378aa")
+		(uuid "e2be891d-7e22-4834-b8dc-009f14a5a461")
 	)
 	(junction
 		(at 101.6 144.78)
@@ -1788,7 +1769,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 55.88) (xy 111.76 55.88)
+			(xy 129.54 55.88) (xy 111.76 55.88)
 		)
 		(stroke
 			(width 0.1524)
@@ -1898,7 +1879,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 142.24) (xy 247.65 140.97)
+			(xy 252.73 140.97) (xy 252.73 139.7)
 		)
 		(stroke
 			(width 0.1524)
@@ -1968,7 +1949,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 92.71) (xy 243.84 92.71)
+			(xy 256.54 92.71) (xy 243.84 92.71)
 		)
 		(stroke
 			(width 0.1524)
@@ -1998,7 +1979,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 162.56) (xy 118.11 152.4)
+			(xy 123.19 162.56) (xy 123.19 152.4)
 		)
 		(stroke
 			(width 0.1524)
@@ -2168,7 +2149,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 91.44) (xy 111.76 91.44)
+			(xy 124.46 91.44) (xy 111.76 91.44)
 		)
 		(stroke
 			(width 0.1524)
@@ -2278,7 +2259,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 127) (xy 111.76 127)
+			(xy 124.46 127) (xy 111.76 127)
 		)
 		(stroke
 			(width 0.1524)
@@ -2338,7 +2319,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 92.71) (xy 251.46 82.55)
+			(xy 256.54 92.71) (xy 256.54 82.55)
 		)
 		(stroke
 			(width 0.1524)
@@ -2408,7 +2389,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 45.72) (xy 124.46 55.88)
+			(xy 129.54 45.72) (xy 129.54 55.88)
 		)
 		(stroke
 			(width 0.1524)
@@ -2458,7 +2439,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 135.89) (xy 234.95 135.89)
+			(xy 207.01 134.62) (xy 234.95 134.62)
 		)
 		(stroke
 			(width 0.1524)
@@ -2478,7 +2459,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 120.65) (xy 240.03 133.35)
+			(xy 240.03 120.65) (xy 240.03 132.08)
 		)
 		(stroke
 			(width 0.1524)
@@ -2918,7 +2899,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 162.56) (xy 118.11 162.56)
+			(xy 106.68 162.56) (xy 123.19 162.56)
 		)
 		(stroke
 			(width 0.1524)
@@ -2988,7 +2969,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 133.35) (xy 247.65 133.35)
+			(xy 240.03 132.08) (xy 247.65 132.08)
 		)
 		(stroke
 			(width 0.1524)
@@ -3118,7 +3099,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 57.15) (xy 251.46 46.99)
+			(xy 256.54 57.15) (xy 256.54 46.99)
 		)
 		(stroke
 			(width 0.1524)
@@ -3128,7 +3109,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 135.89) (xy 247.65 135.89)
+			(xy 234.95 134.62) (xy 247.65 134.62)
 		)
 		(stroke
 			(width 0.1524)
@@ -3188,7 +3169,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 91.44) (xy 119.38 81.28)
+			(xy 124.46 91.44) (xy 124.46 81.28)
 		)
 		(stroke
 			(width 0.1524)
@@ -3218,7 +3199,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 127) (xy 119.38 116.84)
+			(xy 124.46 127) (xy 124.46 116.84)
 		)
 		(stroke
 			(width 0.1524)
@@ -3228,7 +3209,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 132.08) (xy 234.95 135.89)
+			(xy 234.95 132.08) (xy 234.95 134.62)
 		)
 		(stroke
 			(width 0.1524)
@@ -3238,7 +3219,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 57.15) (xy 243.84 57.15)
+			(xy 256.54 57.15) (xy 243.84 57.15)
 		)
 		(stroke
 			(width 0.1524)
@@ -3378,7 +3359,7 @@
 	)
 	(hierarchical_label "CLOCK_IN"
 		(shape input)
-		(at 208.28 135.89 180)
+		(at 207.01 134.62 180)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -3411,7 +3392,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 247.65 142.24 0)
+		(at 252.73 140.97 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -3423,7 +3404,7 @@
 		(fields_autoplaced yes)
 		(uuid "06be7bad-762e-464a-8d91-2daeee157779")
 		(property "Reference" "#PWR143"
-			(at 247.65 148.59 0)
+			(at 252.73 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3434,7 +3415,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 245.11 143.5099 0)
+			(at 250.19 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3445,7 +3426,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 142.24 0)
+			(at 252.73 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3456,7 +3437,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 142.24 0)
+			(at 252.73 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3467,7 +3448,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 247.65 142.24 0)
+			(at 252.73 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3564,6 +3545,114 @@
 			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "#PWR18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack2_Ground")
+		(at 123.19 147.32 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0c699ea8-046c-4046-bd41-251ebc665a29")
+		(property "Reference" "CLKOUT3"
+			(at 114.554 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "35RASMT2BHNTRX"
+			(at 128.27 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "harp_timestamp_generator_Gen3:35RASMT2BHNTRX"
+			(at 123.19 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Grounded Sleeve"
+			(at 123.19 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "35RASMT2BHNTRX"
+			(at 123.19 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPSPN" "OEPS070025"
+			(at 123.19 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "61cd7904-85e8-4511-8f13-fab10769386a")
+		)
+		(pin "1"
+			(uuid "1e7a67ef-6269-4f2d-a9ca-3d77134346cb")
+		)
+		(pin "2"
+			(uuid "da4c813b-17c4-4611-8588-631ad8ec43e0")
+		)
+		(instances
+			(project "harp timestamp generator Gen3"
+				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
+					(reference "CLKOUT3")
 					(unit 1)
 				)
 			)
@@ -3730,8 +3819,8 @@
 		)
 	)
 	(symbol
-		(lib_id "harp_timestamp_generator_Gen3:35RASMT2BHNTRX")
-		(at 252.73 138.43 0)
+		(lib_id "Connector_Audio:AudioJack2_Ground")
+		(at 256.54 77.47 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -3740,10 +3829,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b5fe004-3993-4bf0-9f95-8ede722d4f1f")
-		(property "Reference" "CLKIN0"
-			(at 260.35 135.2804 0)
+		(uuid "203e281a-d532-4574-b8c7-d968f4bf131a")
+		(property "Reference" "CLKOUT5"
+			(at 247.904 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3754,7 +3842,8 @@
 			)
 		)
 		(property "Value" "35RASMT2BHNTRX"
-			(at 260.35 139.0904 0)
+			(at 261.62 78.74 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3765,7 +3854,7 @@
 			)
 		)
 		(property "Footprint" "harp_timestamp_generator_Gen3:35RASMT2BHNTRX"
-			(at 252.73 138.43 0)
+			(at 256.54 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3776,7 +3865,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 138.43 0)
+			(at 256.54 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3786,8 +3875,8 @@
 				)
 			)
 		)
-		(property "Description" "3.5MM JACK STEREO 90º"
-			(at 252.73 138.43 0)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Grounded Sleeve"
+			(at 256.54 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3798,7 +3887,7 @@
 			)
 		)
 		(property "MPN" "35RASMT2BHNTRX"
-			(at 252.73 138.43 0)
+			(at 256.54 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3809,40 +3898,7 @@
 			)
 		)
 		(property "OEPSPN" "OEPS070025"
-			(at 252.73 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TempCo" ""
-			(at 252.73 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" ""
-			(at 252.73 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 252.73 138.43 0)
+			(at 256.54 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3853,18 +3909,18 @@
 			)
 		)
 		(pin "3"
-			(uuid "6c25c1a7-6347-4225-8eaa-101299c1cba6")
+			(uuid "a36e51ad-b7ad-426a-b2e3-5ba5469f6022")
 		)
 		(pin "1"
-			(uuid "ac7214fa-286d-44a4-a647-37175f7f3806")
+			(uuid "3999ee9a-0678-455a-a1a6-4077144d73f4")
 		)
 		(pin "2"
-			(uuid "7ac714b4-44a7-480f-af76-0fac2dc2e1a4")
+			(uuid "dad4e938-7687-4c85-97d6-67d0cc2bc2f7")
 		)
 		(instances
 			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
-					(reference "CLKIN0")
+					(reference "CLKOUT5")
 					(unit 1)
 				)
 			)
@@ -4147,147 +4203,6 @@
 		)
 	)
 	(symbol
-		(lib_id "harp_timestamp_generator_Gen3:35RASMT2BHNTRX")
-		(at 256.54 80.01 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2e1d8744-e3b0-4d0b-9de8-09c1e3cabea9")
-		(property "Reference" "CLKOUT5"
-			(at 264.16 76.8604 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "35RASMT2BHNTRX"
-			(at 264.16 80.6704 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "harp_timestamp_generator_Gen3:35RASMT2BHNTRX"
-			(at 256.54 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 256.54 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "3.5MM JACK STEREO 90º"
-			(at 256.54 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "35RASMT2BHNTRX"
-			(at 256.54 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "OEPSPN" "OEPS070025"
-			(at 256.54 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TempCo" ""
-			(at 256.54 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" ""
-			(at 256.54 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 256.54 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "9a4e444c-61bd-4f3e-9dd4-c95469b41c5c")
-		)
-		(pin "1"
-			(uuid "6f787832-a8aa-4f3f-b938-19c4f0197162")
-		)
-		(pin "2"
-			(uuid "13309c85-9734-4bdf-9a8e-b06d8ac906da")
-		)
-		(instances
-			(project "harp timestamp generator Gen3"
-				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
-					(reference "CLKOUT5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 222.25 121.92 0)
 		(unit 1)
@@ -4425,147 +4340,6 @@
 		)
 	)
 	(symbol
-		(lib_id "harp_timestamp_generator_Gen3:35RASMT2BHNTRX")
-		(at 129.54 43.18 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2eee3cdb-6d41-4cfa-8a75-63670ae606f7")
-		(property "Reference" "CLKOUT0"
-			(at 137.16 40.0304 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "35RASMT2BHNTRX"
-			(at 137.16 43.8404 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "harp_timestamp_generator_Gen3:35RASMT2BHNTRX"
-			(at 129.54 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "3.5MM JACK STEREO 90º"
-			(at 129.54 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "35RASMT2BHNTRX"
-			(at 129.54 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "OEPSPN" "OEPS070025"
-			(at 129.54 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TempCo" ""
-			(at 129.54 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" ""
-			(at 129.54 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 129.54 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "1f265793-685b-4825-9b22-f1c5a093bb92")
-		)
-		(pin "1"
-			(uuid "4db1931f-846f-4577-ac56-3aa4a2124eda")
-		)
-		(pin "2"
-			(uuid "6d731319-1062-4297-85a1-a57e1191a27b")
-		)
-		(instances
-			(project "harp timestamp generator Gen3"
-				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
-					(reference "CLKOUT0")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 35.56 144.78 0)
 		(mirror y)
@@ -4640,6 +4414,114 @@
 			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "#PWR15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack2_Ground")
+		(at 252.73 134.62 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "31c6e746-2898-43da-a209-c87f71ced7fa")
+		(property "Reference" "CLKIN0"
+			(at 244.094 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "35RASMT2BHNTRX"
+			(at 257.81 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "harp_timestamp_generator_Gen3:35RASMT2BHNTRX"
+			(at 252.73 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Grounded Sleeve"
+			(at 252.73 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "35RASMT2BHNTRX"
+			(at 252.73 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPSPN" "OEPS070025"
+			(at 252.73 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "daadea97-964b-49d8-bcb8-7bbf0967d103")
+		)
+		(pin "1"
+			(uuid "58833f0a-d4a5-4710-b2cc-8cac3d71752f")
+		)
+		(pin "2"
+			(uuid "d1deff5d-dc04-4aa7-8e49-43b8278e0fbf")
+		)
+		(instances
+			(project "harp timestamp generator Gen3"
+				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
+					(reference "CLKIN0")
 					(unit 1)
 				)
 			)
@@ -5034,147 +4916,6 @@
 		)
 	)
 	(symbol
-		(lib_id "harp_timestamp_generator_Gen3:35RASMT2BHNTRX")
-		(at 123.19 149.86 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4c0dba6c-e63b-461e-a3dd-bef5b72bad76")
-		(property "Reference" "CLKOUT3"
-			(at 130.81 146.7104 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "35RASMT2BHNTRX"
-			(at 130.81 150.5204 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "harp_timestamp_generator_Gen3:35RASMT2BHNTRX"
-			(at 123.19 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "3.5MM JACK STEREO 90º"
-			(at 123.19 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "35RASMT2BHNTRX"
-			(at 123.19 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "OEPSPN" "OEPS070025"
-			(at 123.19 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TempCo" ""
-			(at 123.19 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" ""
-			(at 123.19 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 123.19 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "7157eac9-9832-4071-a75c-914f761619f9")
-		)
-		(pin "1"
-			(uuid "e08fe3df-865d-419b-aea9-226eda94bc18")
-		)
-		(pin "2"
-			(uuid "bd40a89c-71f3-4340-a573-6630f3ab66ce")
-		)
-		(instances
-			(project "harp timestamp generator Gen3"
-				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
-					(reference "CLKOUT3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 54.61 129.54 0)
 		(mirror y)
@@ -5563,6 +5304,114 @@
 			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "#PWR4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack2_Ground")
+		(at 256.54 41.91 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6e94307a-41aa-40bf-99ab-fa25a0cffe7a")
+		(property "Reference" "CLKOUT4"
+			(at 247.904 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "35RASMT2BHNTRX"
+			(at 261.62 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "harp_timestamp_generator_Gen3:35RASMT2BHNTRX"
+			(at 256.54 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Grounded Sleeve"
+			(at 256.54 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "35RASMT2BHNTRX"
+			(at 256.54 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPSPN" "OEPS070025"
+			(at 256.54 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "4b237df5-a6a5-4b6a-9ce8-05fa2d28323f")
+		)
+		(pin "1"
+			(uuid "c241bed3-21f7-46cd-9eec-5c3f86c995f6")
+		)
+		(pin "2"
+			(uuid "b81363d6-9767-4019-80d5-8201c280a8b9")
+		)
+		(instances
+			(project "harp timestamp generator Gen3"
+				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
+					(reference "CLKOUT4")
 					(unit 1)
 				)
 			)
@@ -6693,6 +6542,114 @@
 			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "#+3V15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack2_Ground")
+		(at 124.46 76.2 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9ecca4a2-5d09-41bf-bfb2-d428b32dc5d2")
+		(property "Reference" "CLKOUT1"
+			(at 115.824 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "35RASMT2BHNTRX"
+			(at 129.54 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "harp_timestamp_generator_Gen3:35RASMT2BHNTRX"
+			(at 124.46 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Grounded Sleeve"
+			(at 124.46 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "35RASMT2BHNTRX"
+			(at 124.46 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPSPN" "OEPS070025"
+			(at 124.46 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "0c6a1cb6-0d5b-4243-b6ed-2533b47e517a")
+		)
+		(pin "1"
+			(uuid "9418d83c-bf7a-4bf0-8116-2de4ec87c2f2")
+		)
+		(pin "2"
+			(uuid "28a89461-46bf-4e48-9c03-82ea6066ed50")
+		)
+		(instances
+			(project "harp timestamp generator Gen3"
+				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
+					(reference "CLKOUT1")
 					(unit 1)
 				)
 			)
@@ -8022,8 +7979,8 @@
 		)
 	)
 	(symbol
-		(lib_id "harp_timestamp_generator_Gen3:35RASMT2BHNTRX")
-		(at 124.46 114.3 0)
+		(lib_id "Connector_Audio:AudioJack2_Ground")
+		(at 124.46 111.76 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -8032,10 +7989,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e32c912d-1a64-4100-8e51-476e3d3b7f9a")
+		(uuid "e28b79e7-2a4c-4a6a-91eb-9cc88bd1e4e0")
 		(property "Reference" "CLKOUT2"
-			(at 132.08 111.1504 0)
+			(at 115.824 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8046,7 +8002,8 @@
 			)
 		)
 		(property "Value" "35RASMT2BHNTRX"
-			(at 132.08 114.9604 0)
+			(at 129.54 113.03 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8057,7 +8014,7 @@
 			)
 		)
 		(property "Footprint" "harp_timestamp_generator_Gen3:35RASMT2BHNTRX"
-			(at 124.46 114.3 0)
+			(at 124.46 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8068,7 +8025,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 114.3 0)
+			(at 124.46 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8078,8 +8035,8 @@
 				)
 			)
 		)
-		(property "Description" "3.5MM JACK STEREO 90º"
-			(at 124.46 114.3 0)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Grounded Sleeve"
+			(at 124.46 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8090,7 +8047,7 @@
 			)
 		)
 		(property "MPN" "35RASMT2BHNTRX"
-			(at 124.46 114.3 0)
+			(at 124.46 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8101,40 +8058,7 @@
 			)
 		)
 		(property "OEPSPN" "OEPS070025"
-			(at 124.46 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TempCo" ""
-			(at 124.46 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" ""
-			(at 124.46 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 124.46 114.3 0)
+			(at 124.46 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8145,13 +8069,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "c90a2f83-72fa-439e-81fe-0851e3050662")
+			(uuid "0d79bae8-2ef2-42eb-8c49-dd92cf0dce96")
 		)
 		(pin "1"
-			(uuid "baa78c19-d821-41dc-b526-8872eddf6f31")
+			(uuid "7bb67f89-8db9-4b5e-8ae9-a6bf2fda066a")
 		)
 		(pin "2"
-			(uuid "a336162c-a74d-43f3-afe3-df6aad3fe04c")
+			(uuid "eb8bc748-57cf-4ced-900b-f9ccc05dcd25")
 		)
 		(instances
 			(project "harp timestamp generator Gen3"
@@ -8530,6 +8454,114 @@
 			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack2_Ground")
+		(at 129.54 40.64 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "edbad507-8f7d-4540-befa-34d6b0d760dc")
+		(property "Reference" "CLKOUT0"
+			(at 120.904 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "35RASMT2BHNTRX"
+			(at 134.62 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "harp_timestamp_generator_Gen3:35RASMT2BHNTRX"
+			(at 129.54 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Grounded Sleeve"
+			(at 129.54 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "35RASMT2BHNTRX"
+			(at 129.54 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OEPSPN" "OEPS070025"
+			(at 129.54 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "b80eee07-2693-4299-b379-d59701b94962")
+		)
+		(pin "1"
+			(uuid "37cda85d-04d4-4108-82e7-1b4ee61bd4ac")
+		)
+		(pin "2"
+			(uuid "da83518c-2e0c-49b9-ac1f-eea1a25f27aa")
+		)
+		(instances
+			(project "harp timestamp generator Gen3"
+				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
+					(reference "CLKOUT0")
 					(unit 1)
 				)
 			)
@@ -8915,147 +8947,6 @@
 		)
 	)
 	(symbol
-		(lib_id "harp_timestamp_generator_Gen3:35RASMT2BHNTRX")
-		(at 124.46 78.74 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f6b15cc4-a08e-44e4-88ab-f14dd4948e22")
-		(property "Reference" "CLKOUT1"
-			(at 132.08 75.5904 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "35RASMT2BHNTRX"
-			(at 132.08 79.4004 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "harp_timestamp_generator_Gen3:35RASMT2BHNTRX"
-			(at 124.46 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "3.5MM JACK STEREO 90º"
-			(at 124.46 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "35RASMT2BHNTRX"
-			(at 124.46 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "OEPSPN" "OEPS070025"
-			(at 124.46 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TempCo" ""
-			(at 124.46 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" ""
-			(at 124.46 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 124.46 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "07f2605f-c39a-4e14-9dfb-422b0cd9fa0f")
-		)
-		(pin "1"
-			(uuid "c951f84d-4ffa-45b0-8e0c-6bdc9fe3f0c1")
-		)
-		(pin "2"
-			(uuid "5d4f13eb-e465-437a-9a43-efa48d6fc410")
-		)
-		(instances
-			(project "harp timestamp generator Gen3"
-				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
-					(reference "CLKOUT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "harp_timestamp_generator_Gen3:SI8621BC-B-IS")
 		(at 208.28 82.55 0)
 		(unit 1)
@@ -9341,147 +9232,6 @@
 			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "harp_timestamp_generator_Gen3:35RASMT2BHNTRX")
-		(at 256.54 44.45 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fcc1c50f-4401-47d5-9070-a0d35c7c1170")
-		(property "Reference" "CLKOUT4"
-			(at 264.16 41.3004 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "35RASMT2BHNTRX"
-			(at 264.16 45.1104 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "harp_timestamp_generator_Gen3:35RASMT2BHNTRX"
-			(at 256.54 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 256.54 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "3.5MM JACK STEREO 90º"
-			(at 256.54 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "35RASMT2BHNTRX"
-			(at 256.54 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "OEPSPN" "OEPS070025"
-			(at 256.54 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TempCo" ""
-			(at 256.54 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" ""
-			(at 256.54 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 256.54 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "ef8f754d-a9b1-4e19-b966-ab84c3db9a18")
-		)
-		(pin "1"
-			(uuid "a0271b8e-a713-406f-ad34-87da1b27ebaf")
-		)
-		(pin "2"
-			(uuid "5b014190-8be9-4c0f-baa6-ea549b25ac90")
-		)
-		(instances
-			(project "harp timestamp generator Gen3"
-				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
-					(reference "CLKOUT4")
 					(unit 1)
 				)
 			)
