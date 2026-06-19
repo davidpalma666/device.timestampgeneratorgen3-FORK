@@ -570,7 +570,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "manufacturing/gerbers",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -582,7 +582,7 @@
       "method": 0,
       "sort_order": 1
     },
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "manufacturing\\bom\\harp timestamp generator Gen3",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
