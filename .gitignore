@@ -59,3 +59,6 @@ obj
 Debug
 packages
 /Hardware/PCB in EAGLE
+/Hardware/harp timestamp generator Gen3 front panel/harp timestamp generator Gen3 front panel-backups
+/Hardware/harp timestamp generator Gen3/harp timestamp generator Gen3-backups
+/Hardware/harp timestamp generator Gen3 rear panel/harp timestamp generator Gen3 rear panel-backups
