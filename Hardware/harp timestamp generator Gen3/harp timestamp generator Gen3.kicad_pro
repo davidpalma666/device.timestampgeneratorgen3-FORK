@@ -599,7 +599,7 @@
       "method": 0,
       "sort_order": 1
     },
-    "bom_export_filename": "manufacturing\\bom\\harp timestamp generator Gen3",
+    "bom_export_filename": "manufacturing\\bom\\BOM harp timestamp generator Gen3.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -681,7 +681,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
           "show": true
