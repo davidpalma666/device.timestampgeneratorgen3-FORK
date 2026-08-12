@@ -589,6 +589,7 @@
       "netlist": "",
       "plot": "manufacturing/gerbers",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -753,7 +754,7 @@
         "uuid": "37f4656a-fc1e-403f-990e-8468cac940f2"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#P+9,#PWR74",
     "variants": []
   },
   "sheets": [
