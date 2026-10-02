@@ -3462,7 +3462,7 @@
 			(uuid "1215aff5-2464-4987-a07d-eef6719fa2eb")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "#PWR143")
 					(unit 1)
@@ -3542,7 +3542,7 @@
 			(uuid "ebc9806a-4923-406f-be13-74bb76c26e39")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "#PWR18")
 					(unit 1)
@@ -3640,6 +3640,17 @@
 				)
 			)
 		)
+		(property "OEPS Description" "CONNECTOR:   3.5MM JACK STEREO 90º   [35RASMT2BHNTRX] [SMD]"
+			(at 123.19 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "61cd7904-85e8-4511-8f13-fab10769386a")
 		)
@@ -3650,7 +3661,7 @@
 			(uuid "da4c813b-17c4-4611-8588-631ad8ec43e0")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "CLKOUT3")
 					(unit 1)
@@ -3730,7 +3741,7 @@
 			(uuid "893e37b7-12b3-4587-a3bb-5bee5a26f351")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "#PWR8")
 					(unit 1)
@@ -3810,9 +3821,87 @@
 			(uuid "cfe72132-d546-4df0-8893-9985a4f78045")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "#PWR16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 184.15 110.49 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1b515f58-6b61-44d2-96ca-13edf706f939")
+		(property "Reference" "#P+03"
+			(at 184.15 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Vin"
+			(at 183.896 105.918 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "be9fd3cb-f656-4c7b-95f7-0cbcab1831e8")
+		)
+		(instances
+			(project "harp timestamp generator Gen3 v1.4"
+				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
+					(reference "#P+03")
 					(unit 1)
 				)
 			)
@@ -3908,6 +3997,17 @@
 				)
 			)
 		)
+		(property "OEPS Description" "CONNECTOR:   3.5MM JACK STEREO 90º   [35RASMT2BHNTRX] [SMD]"
+			(at 256.54 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "a36e51ad-b7ad-426a-b2e3-5ba5469f6022")
 		)
@@ -3918,7 +4018,7 @@
 			(uuid "dad4e938-7687-4c85-97d6-67d0cc2bc2f7")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "CLKOUT5")
 					(unit 1)
@@ -4048,6 +4148,17 @@
 				)
 			)
 		)
+		(property "OEPS Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
+			(at 41.91 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "61ce515e-c6f8-4003-bf77-dae36e868ee4")
 		)
@@ -4055,7 +4166,7 @@
 			(uuid "f6dc6ca1-e03a-4395-b75c-9005f3b37cba")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "C16")
 					(unit 1)
@@ -4187,6 +4298,17 @@
 				)
 			)
 		)
+		(property "OEPS Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
+			(at 111.76 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "34ea00a5-82fa-4c00-a17a-228117622d6c")
 		)
@@ -4194,7 +4316,7 @@
 			(uuid "d03d96bc-f0eb-4b92-bb6a-f1efbdd2d684")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "C26")
 					(unit 1)
@@ -4324,6 +4446,17 @@
 				)
 			)
 		)
+		(property "OEPS Description" "CAPACITOR:   SMD CER 0603 4.7uF 16V ±10% X6S   [C1608X6S1C475K080AC] [SMD]"
+			(at 222.25 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "fa30d742-17ff-4412-b088-be9f62d55858")
 		)
@@ -4331,7 +4464,7 @@
 			(uuid "6ca80e4e-f06b-4000-9734-40583bbcdc7f")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "C24")
 					(unit 1)
@@ -4411,7 +4544,7 @@
 			(uuid "61f383ab-8134-4b5a-bba0-132dcb9b182d")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "#PWR15")
 					(unit 1)
@@ -4509,6 +4642,17 @@
 				)
 			)
 		)
+		(property "OEPS Description" "CONNECTOR:   3.5MM JACK STEREO 90º   [35RASMT2BHNTRX] [SMD]"
+			(at 252.73 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "daadea97-964b-49d8-bcb8-7bbf0967d103")
 		)
@@ -4519,7 +4663,7 @@
 			(uuid "d1deff5d-dc04-4aa7-8e49-43b8278e0fbf")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "CLKIN0")
 					(unit 1)
@@ -4651,6 +4795,17 @@
 				)
 			)
 		)
+		(property "OEPS Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
+			(at 106.68 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ee9ced8e-8605-42ec-8cdc-a579cc0fd251")
 		)
@@ -4658,7 +4813,7 @@
 			(uuid "3d750bae-0dc3-4847-b349-5f110c97eba4")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "C17")
 					(unit 1)
@@ -4738,7 +4893,7 @@
 			(uuid "2cae87f9-2bac-4756-802c-e43c70842391")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "#PWR13")
 					(unit 1)
@@ -4828,7 +4983,7 @@
 			(uuid "2ba2ff0a-a9f8-47c3-a49e-61575e09a2bc")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "#+3V21")
 					(unit 1)
@@ -4907,7 +5062,7 @@
 			(uuid "fb7cfddb-04e0-4565-b1a9-b712dca3b30c")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "#PWR55")
 					(unit 1)
@@ -4987,7 +5142,7 @@
 			(uuid "e7164b90-008e-4613-8e9b-d83b15dc50f9")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "#PWR10")
 					(unit 1)
@@ -5067,7 +5222,7 @@
 			(uuid "2b8bf95d-1d1a-49b6-9c4f-9c32f7513eef")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "#PWR17")
 					(unit 1)
@@ -5196,6 +5351,17 @@
 				)
 			)
 		)
+		(property "OEPS Description" "IC:   DIGITAL ISOLATOR 1+1WAY   [SI8621BC-B-ISR] [8-SOIC]"
+			(at 76.2 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "1aeb050c-a476-4d64-bc5c-75117af754f7")
 		)
@@ -5221,7 +5387,7 @@
 			(uuid "66f678ec-63e1-4a45-a261-99274f4224d1")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "IC14")
 					(unit 1)
@@ -5301,7 +5467,7 @@
 			(uuid "4b261e05-adbd-45c7-85c1-5a43147e6fe0")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "#PWR4")
 					(unit 1)
@@ -5399,6 +5565,17 @@
 				)
 			)
 		)
+		(property "OEPS Description" "CONNECTOR:   3.5MM JACK STEREO 90º   [35RASMT2BHNTRX] [SMD]"
+			(at 256.54 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "4b237df5-a6a5-4b6a-9ce8-05fa2d28323f")
 		)
@@ -5409,7 +5586,7 @@
 			(uuid "b81363d6-9767-4019-80d5-8201c280a8b9")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "CLKOUT4")
 					(unit 1)
@@ -5539,6 +5716,17 @@
 				)
 			)
 		)
+		(property "OEPS Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
+			(at 173.99 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ae07f1b3-4ee2-4c87-a18f-9cefa09a6837")
 		)
@@ -5546,7 +5734,7 @@
 			(uuid "a84416a8-814f-4dab-b4b0-2af37549ea6e")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "C18")
 					(unit 1)
@@ -5677,6 +5865,17 @@
 				)
 			)
 		)
+		(property "OEPS Description" "CAPACITOR:   SMD CER 0603 4.7uF 16V ±10% X6S   [C1608X6S1C475K080AC] [SMD]"
+			(at 173.99 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dea64d25-c41c-4dac-8291-5a0253979bd3")
 		)
@@ -5684,7 +5883,7 @@
 			(uuid "44eebb75-5e28-43a1-b779-4aa06253352b")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "C23")
 					(unit 1)
@@ -5774,7 +5973,7 @@
 			(uuid "ca9d74e1-191c-4b62-9860-af6d40c44fc3")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "#+3V16")
 					(unit 1)
@@ -5906,6 +6105,17 @@
 				)
 			)
 		)
+		(property "OEPS Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
+			(at 111.76 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "45ff4f5c-0c0c-4821-a73d-333a5bf813a5")
 		)
@@ -5913,7 +6123,7 @@
 			(uuid "145cce4d-2082-473a-8268-9439b5a4fc11")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "C13")
 					(unit 1)
@@ -6043,6 +6253,17 @@
 				)
 			)
 		)
+		(property "OEPS Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
+			(at 41.91 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "91ce7886-0697-4f23-9afc-4d2933a5c86a")
 		)
@@ -6050,7 +6271,7 @@
 			(uuid "379a608f-2c03-47b8-86ae-33567b1ba512")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "C1")
 					(unit 1)
@@ -6140,7 +6361,7 @@
 			(uuid "2695efbf-75f1-4008-870e-ef88e939b94f")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "#+3V17")
 					(unit 1)
@@ -6230,7 +6451,7 @@
 			(uuid "50e80e1c-9ea4-4eed-895f-db7783c9e6d7")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "#+3V18")
 					(unit 1)
@@ -6310,7 +6531,7 @@
 			(uuid "711319cf-acc2-48a9-aa96-83eaec8e679c")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "#PWR5")
 					(unit 1)
@@ -6442,6 +6663,17 @@
 				)
 			)
 		)
+		(property "OEPS Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
+			(at 243.84 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2f5b55e6-5338-46e9-adf1-5fb23c3c6505")
 		)
@@ -6449,7 +6681,7 @@
 			(uuid "109ba24c-42a6-4e9f-9405-9748583f5421")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "C19")
 					(unit 1)
@@ -6539,7 +6771,7 @@
 			(uuid "6ecdbe08-b7f7-49e6-ab54-844067dbfdac")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "#+3V15")
 					(unit 1)
@@ -6637,6 +6869,17 @@
 				)
 			)
 		)
+		(property "OEPS Description" "CONNECTOR:   3.5MM JACK STEREO 90º   [35RASMT2BHNTRX] [SMD]"
+			(at 124.46 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "0c6a1cb6-0d5b-4243-b6ed-2533b47e517a")
 		)
@@ -6647,7 +6890,7 @@
 			(uuid "28a89461-46bf-4e48-9c03-82ea6066ed50")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "CLKOUT1")
 					(unit 1)
@@ -6777,6 +7020,17 @@
 				)
 			)
 		)
+		(property "OEPS Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
+			(at 41.91 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "088f52d1-fb06-47aa-aeac-f799a7dca4dd")
 		)
@@ -6784,99 +7038,9 @@
 			(uuid "c06a2a61-f017-4306-a662-045bc44dcfea")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 184.15 110.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bb18369e-da7c-4b6e-b833-2c77ad34299c")
-		(property "Reference" "#P+3"
-			(at 184.15 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 184.15 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 184.15 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIGKEYPN" ""
-			(at 184.15 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "63efbe99-a89e-4eaa-bfcf-4c1143f87789")
-		)
-		(instances
-			(project "harp timestamp generator Gen3"
-				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
-					(reference "#P+3")
 					(unit 1)
 				)
 			)
@@ -6953,7 +7117,7 @@
 			(uuid "4ccc7907-ab8c-4a3c-bb60-f4ce162ed384")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "#PWR57")
 					(unit 1)
@@ -7084,6 +7248,17 @@
 				)
 			)
 		)
+		(property "OEPS Description" "RESISTOR:   SMD 0402 10kΩ ±1% 0.063W   [CRCW040210K0FKED] [SMD]"
+			(at 234.95 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2cc865cb-5697-47b2-a2e0-2e9d153bb5cc")
 		)
@@ -7091,7 +7266,7 @@
 			(uuid "0f04e0c2-0d7b-4f33-8938-b35a7b0ba862")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "R3")
 					(unit 1)
@@ -7171,7 +7346,7 @@
 			(uuid "c2e4bba5-9101-4b11-a6cd-b4161aa304a2")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "#PWR12")
 					(unit 1)
@@ -7251,7 +7426,7 @@
 			(uuid "e94c169c-e7b2-470e-bf4c-046cb81aa653")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "#PWR56")
 					(unit 1)
@@ -7380,6 +7555,17 @@
 				)
 			)
 		)
+		(property "OEPS Description" "IC:   DIGITAL ISOLATOR 1+1WAY   [SI8621BC-B-ISR] [8-SOIC]"
+			(at 208.28 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "31e7f8a8-a3a5-4165-ad35-1b3d9cfde090")
 		)
@@ -7405,7 +7591,7 @@
 			(uuid "555c2056-e9d6-4817-b358-771a9f8e7afa")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "IC16")
 					(unit 1)
@@ -7533,6 +7719,17 @@
 				)
 			)
 		)
+		(property "OEPS Description" "RESISTOR:   SMD 0402 10Ω ±5% 0.25W   [ERJ-PA2J100X] [SMD]"
+			(at 232.41 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "11638302-94a6-411d-b9c6-48c4e31a16c7")
 		)
@@ -7540,7 +7737,7 @@
 			(uuid "ca57137f-136d-4db5-9e4a-07cc743f615c")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "R2")
 					(unit 1)
@@ -7670,6 +7867,17 @@
 				)
 			)
 		)
+		(property "OEPS Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
+			(at 41.91 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e409554e-c403-473a-851e-7eeef4aebd20")
 		)
@@ -7677,7 +7885,7 @@
 			(uuid "c105e428-0af8-4c37-b9b8-20d94bb950c5")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "C25")
 					(unit 1)
@@ -7806,6 +8014,17 @@
 				)
 			)
 		)
+		(property "OEPS Description" "IC:   DIGITAL ISOLATOR 1+1WAY   [SI8621BC-B-ISR] [8-SOIC]"
+			(at 76.2 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "f2a6af7e-464e-4bc2-9d85-11c786a13dd9")
 		)
@@ -7831,7 +8050,7 @@
 			(uuid "0f5b49b6-5ba9-4e8f-96b7-a642a2f0888a")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "IC12")
 					(unit 1)
@@ -7963,6 +8182,17 @@
 				)
 			)
 		)
+		(property "OEPS Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
+			(at 111.76 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "63c302a3-c6fc-48c9-85c1-1fee43e724f7")
 		)
@@ -7970,7 +8200,7 @@
 			(uuid "b9d64dc7-e1a2-4a0e-a58f-fe83210f7dee")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "C15")
 					(unit 1)
@@ -8068,6 +8298,17 @@
 				)
 			)
 		)
+		(property "OEPS Description" "CONNECTOR:   3.5MM JACK STEREO 90º   [35RASMT2BHNTRX] [SMD]"
+			(at 124.46 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "0d79bae8-2ef2-42eb-8c49-dd92cf0dce96")
 		)
@@ -8078,7 +8319,7 @@
 			(uuid "eb8bc748-57cf-4ced-900b-f9ccc05dcd25")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "CLKOUT2")
 					(unit 1)
@@ -8207,6 +8448,17 @@
 				)
 			)
 		)
+		(property "OEPS Description" "IC:   DIGITAL ISOLATOR 1+1WAY   [SI8621BC-B-ISR] [8-SOIC]"
+			(at 76.2 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "8d9b4bc2-0cd5-4b12-9dd0-99d1b986497d")
 		)
@@ -8232,7 +8484,7 @@
 			(uuid "5a2d1f2e-79e7-4960-9583-236534510abe")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "IC13")
 					(unit 1)
@@ -8312,7 +8564,7 @@
 			(uuid "c048ebc3-303d-4279-8dde-9148e3f15158")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "#PWR3")
 					(unit 1)
@@ -8444,6 +8696,17 @@
 				)
 			)
 		)
+		(property "OEPS Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
+			(at 243.84 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "eaa65ea8-0cf2-4b24-8591-bf379999973c")
 		)
@@ -8451,7 +8714,7 @@
 			(uuid "daa21f6e-5621-4357-bce3-1955b93563f2")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "C21")
 					(unit 1)
@@ -8549,6 +8812,17 @@
 				)
 			)
 		)
+		(property "OEPS Description" "CONNECTOR:   3.5MM JACK STEREO 90º   [35RASMT2BHNTRX] [SMD]"
+			(at 129.54 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "b80eee07-2693-4299-b379-d59701b94962")
 		)
@@ -8559,7 +8833,7 @@
 			(uuid "da83518c-2e0c-49b9-ac1f-eea1a25f27aa")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "CLKOUT0")
 					(unit 1)
@@ -8688,6 +8962,17 @@
 				)
 			)
 		)
+		(property "OEPS Description" "IC:   DIGITAL ISOLATOR 1+1WAY   [SI8621BC-B-ISR] [8-SOIC]"
+			(at 76.2 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "617a8bb5-0fc1-41b0-9b17-4979b0516ecc")
 		)
@@ -8713,7 +8998,7 @@
 			(uuid "32d6b20d-f8c1-4fd8-8693-a623782426b4")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "IC15")
 					(unit 1)
@@ -8842,6 +9127,17 @@
 				)
 			)
 		)
+		(property "OEPS Description" "IC:   LDO 3.3V 150mA   [LP5951MFX-3.3/NOPB] [SOT-23-5]"
+			(at 207.01 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "080a3aa6-15e0-47c0-9bbe-5854ebcd637e")
 		)
@@ -8858,7 +9154,7 @@
 			(uuid "55393cbe-dd25-4b92-97ab-fb071db79d46")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "IC11")
 					(unit 1)
@@ -8938,7 +9234,7 @@
 			(uuid "2edf8faf-895c-4a0e-9bf7-0cbb0970f83a")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "#PWR19")
 					(unit 1)
@@ -9067,6 +9363,17 @@
 				)
 			)
 		)
+		(property "OEPS Description" "IC:   DIGITAL ISOLATOR 1+1WAY   [SI8621BC-B-ISR] [8-SOIC]"
+			(at 208.28 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "da519bd8-cd8b-4b94-b734-6bd3c59144cf")
 		)
@@ -9092,7 +9399,7 @@
 			(uuid "5dcfdef3-79d5-45bc-a91a-11b0364c4ddf")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "IC17")
 					(unit 1)
@@ -9222,6 +9529,17 @@
 				)
 			)
 		)
+		(property "OEPS Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
+			(at 173.99 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7dc0ca09-9861-49b7-9203-906a5ea2a854")
 		)
@@ -9229,7 +9547,7 @@
 			(uuid "e48a80f5-a73d-49b6-963f-8e628246b04e")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "C20")
 					(unit 1)
@@ -9319,7 +9637,7 @@
 			(uuid "03384326-2b61-4842-bcb8-c45be3938ad1")
 		)
 		(instances
-			(project "harp timestamp generator Gen3"
+			(project "harp timestamp generator Gen3 v1.4"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/673a7473-7cd8-4b0e-a429-08ffed71afbc"
 					(reference "#+3V42")
 					(unit 1)
