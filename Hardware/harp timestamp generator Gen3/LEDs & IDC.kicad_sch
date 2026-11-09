@@ -928,192 +928,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "R_US_1"
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.54 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_US"
-				(at -2.54 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.016 -0.254 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor, US symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_US_1_0_1"
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_US_1_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Transistor_BJT:BC850"
 			(pin_names
 				(offset 0)
@@ -2405,18 +2219,6 @@
 		(uuid "938f4949-c236-4fc2-af2c-abf8dec5a7bb")
 	)
 	(junction
-		(at 130.81 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "94307196-078f-45b4-a662-3ab6844b62cd")
-	)
-	(junction
-		(at 125.73 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "97c61d72-fee4-47d3-97a1-bfed7606aa97")
-	)
-	(junction
 		(at 127 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2435,20 +2237,24 @@
 		(uuid "d70eab22-ab9c-449f-9a16-cd77d5523735")
 	)
 	(no_connect
-		(at 208.28 140.97)
+		(at 214.63 132.08)
 		(uuid "0b765a9a-064d-4a18-bb4a-3421e37ae316")
 	)
 	(no_connect
-		(at 208.28 143.51)
+		(at 214.63 134.62)
 		(uuid "3d4b9f68-e987-48b3-8ae6-6da5ad176af7")
 	)
 	(no_connect
-		(at 208.28 146.05)
+		(at 214.63 137.16)
 		(uuid "6d04a454-cfb1-49c9-bcb9-a1214d7654d7")
 	)
 	(no_connect
-		(at 220.98 146.05)
+		(at 227.33 137.16)
 		(uuid "737fa375-c603-47cd-83bb-f086de3ab818")
+	)
+	(no_connect
+		(at 214.63 129.54)
+		(uuid "c97afdfa-d357-4c3f-b65b-ba56c1b28a38")
 	)
 	(wire
 		(pts
@@ -2572,16 +2378,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 156.21) (xy 130.81 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13b4fb31-0134-467c-90eb-06e0887b8ea0")
-	)
-	(wire
-		(pts
 			(xy 127 113.03) (xy 127 114.3)
 		)
 		(stroke
@@ -2682,16 +2478,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 165.1) (xy 130.81 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28bcbc48-4f99-4395-8ce5-fd9014c30fde")
-	)
-	(wire
-		(pts
 			(xy 116.84 133.35) (xy 113.03 133.35)
 		)
 		(stroke
@@ -2752,16 +2538,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 156.21) (xy 125.73 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3eae517d-6fdc-46c9-bdbb-4b0a5b310796")
-	)
-	(wire
-		(pts
 			(xy 91.44 88.9) (xy 92.71 88.9)
 		)
 		(stroke
@@ -2782,16 +2558,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 167.64) (xy 125.73 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4492334c-6863-4401-bd17-fe80341a7b94")
-	)
-	(wire
-		(pts
 			(xy 201.93 45.72) (xy 204.47 45.72)
 		)
 		(stroke
@@ -2802,7 +2568,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 140.97) (xy 231.14 140.97)
+			(xy 227.33 132.08) (xy 237.49 132.08)
 		)
 		(stroke
 			(width 0.1524)
@@ -2869,16 +2635,6 @@
 			(type default)
 		)
 		(uuid "5b894721-8c0f-4249-9e28-356f4bda5175")
-	)
-	(wire
-		(pts
-			(xy 135.89 168.91) (xy 135.89 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d4d28de-3c68-4641-b668-15b61f44b574")
 	)
 	(wire
 		(pts
@@ -2952,7 +2708,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 143.51) (xy 231.14 143.51)
+			(xy 227.33 134.62) (xy 237.49 134.62)
 		)
 		(stroke
 			(width 0.1524)
@@ -3012,16 +2768,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 138.43) (xy 208.28 138.43)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "8a8716fa-5e8b-4c94-8bf1-bdad62759499")
-	)
-	(wire
-		(pts
 			(xy 39.37 88.9) (xy 40.64 88.9)
 		)
 		(stroke
@@ -3072,7 +2818,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 152.4) (xy 207.01 148.59)
+			(xy 213.36 143.51) (xy 213.36 139.7)
 		)
 		(stroke
 			(width 0.1524)
@@ -3142,16 +2888,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 179.07) (xy 160.02 179.07)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "ab1f58b4-f322-40ae-b43c-2a111c0f18da")
-	)
-	(wire
-		(pts
 			(xy 157.48 20.32) (xy 157.48 22.86)
 		)
 		(stroke
@@ -3202,16 +2938,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 179.07) (xy 148.59 179.07)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "b2c85c2b-445f-436f-8cd2-52c59406171f")
-	)
-	(wire
-		(pts
 			(xy 55.88 168.91) (xy 55.88 166.37)
 		)
 		(stroke
@@ -3239,16 +2965,6 @@
 			(type solid)
 		)
 		(uuid "bde107be-4a49-4e08-8a30-ead7e6144730")
-	)
-	(wire
-		(pts
-			(xy 125.73 154.94) (xy 125.73 156.21)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "bfea3823-a20b-4476-9738-48bfbe80fdd8")
 	)
 	(wire
 		(pts
@@ -3392,16 +3108,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 165.1) (xy 130.81 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d880d9b6-0fba-4a53-ac9b-880ce670d470")
-	)
-	(wire
-		(pts
 			(xy 246.38 88.9) (xy 250.19 88.9)
 		)
 		(stroke
@@ -3432,23 +3138,13 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 138.43) (xy 231.14 138.43)
+			(xy 227.33 129.54) (xy 237.49 129.54)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "e51153e0-af78-4571-b92b-086cd1f63ac6")
-	)
-	(wire
-		(pts
-			(xy 120.65 179.07) (xy 118.11 179.07)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "e6d459f4-5324-4baa-b25d-7a560dfb003f")
 	)
 	(wire
 		(pts
@@ -3482,7 +3178,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 148.59) (xy 224.79 148.59)
+			(xy 227.33 139.7) (xy 231.14 139.7)
 		)
 		(stroke
 			(width 0.1524)
@@ -3492,7 +3188,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 148.59) (xy 208.28 148.59)
+			(xy 213.36 139.7) (xy 214.63 139.7)
 		)
 		(stroke
 			(width 0.1524)
@@ -3570,18 +3266,8 @@
 		)
 		(uuid "fb6354dc-02c5-4c4f-9cba-90c307177375")
 	)
-	(wire
-		(pts
-			(xy 125.73 156.21) (xy 125.73 157.48)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "fefb3b85-2e22-4ee1-a2da-bd8fda103aa7")
-	)
 	(label "RX"
-		(at 231.14 143.51 0)
+		(at 237.49 134.62 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -3590,18 +3276,8 @@
 		)
 		(uuid "133a42b3-dbed-40e7-953a-8d43f74ce79b")
 	)
-	(label "BLIGHT_EN"
-		(at 195.58 138.43 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "1e79bfbd-966d-4c8f-8863-6c6babf328a8")
-	)
 	(label "IDC_CLOCK_OUT"
-		(at 231.14 138.43 0)
+		(at 237.49 129.54 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -3630,16 +3306,6 @@
 		)
 		(uuid "462a9aa2-12ce-4cfa-b8c4-845c992f45f0")
 	)
-	(label "BLIGHT_EN"
-		(at 173.99 179.07 180)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify right bottom)
-		)
-		(uuid "84c0df80-eff7-43a0-b6c2-d838a25664eb")
-	)
 	(label "IDC_CLOCK_OUT"
 		(at 175.26 133.35 180)
 		(effects
@@ -3651,7 +3317,7 @@
 		(uuid "c0ee40c2-83e1-405d-bdba-b078030429e8")
 	)
 	(label "TX"
-		(at 231.14 140.97 0)
+		(at 237.49 132.08 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -3759,17 +3425,6 @@
 		)
 		(uuid "7c07f3ec-bf77-4e90-8701-be5dc1388032")
 	)
-	(hierarchical_label "BLIGHT_EN_UC"
-		(shape input)
-		(at 118.11 179.07 180)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify right)
-		)
-		(uuid "8d512f63-3bcc-4802-9f4b-56d5a4eb934b")
-	)
 	(hierarchical_label "LED_CLK_3"
 		(shape input)
 		(at 27.94 88.9 180)
@@ -3826,7 +3481,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00e3e88b-31a4-43a4-b3df-d5fa25d50aaa")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR085"
 			(at 55.88 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -3885,9 +3540,9 @@
 			(uuid "358a5718-501b-4f9e-a481-36183954cb0e")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "#PWR02")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -3906,7 +3561,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04954051-b55b-4d2d-9bfc-90a7bac82e9f")
-		(property "Reference" "R11"
+		(property "Reference" "R47"
 			(at 153.67 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4033,9 +3688,9 @@
 			(uuid "9df95c01-c64c-4e89-bb96-545c8879ddb6")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "R11")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -4052,7 +3707,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "07df0260-bbb0-4c58-abb1-91a22435a6f4")
-		(property "Reference" "R31"
+		(property "Reference" "R46"
 			(at 254 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4179,9 +3834,9 @@
 			(uuid "c024b5ca-bb53-4433-9105-ed88c5bc13db")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "R31")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -4199,7 +3854,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09eda7fc-b950-4dba-8413-53d417406ac6")
-		(property "Reference" "T4"
+		(property "Reference" "T7"
 			(at 101.6 86.995 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4331,9 +3986,9 @@
 			(uuid "24be0a11-f73d-4001-acc6-7e9f6f5c82c6")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "T4")
+					(reference "T7")
 					(unit 1)
 				)
 			)
@@ -4352,7 +4007,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e574c77-656f-4ffe-8e89-1b2ccfa34406")
-		(property "Reference" "R10"
+		(property "Reference" "R49"
 			(at 82.55 171.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4479,9 +4134,9 @@
 			(uuid "e0f72663-cd2c-4f00-8fa3-192a11717e31")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "R10")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -4499,7 +4154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "133776a6-5dbc-4537-ab72-9c0f6a75b451")
-		(property "Reference" "T9"
+		(property "Reference" "T5"
 			(at 270.51 43.815 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4631,9 +4286,9 @@
 			(uuid "0b699d43-494f-4a20-bf82-8994b64d270b")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "T9")
+					(reference "T5")
 					(unit 1)
 				)
 			)
@@ -4650,7 +4305,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1444785f-5482-47d3-8b2a-9500d92787e2")
-		(property "Reference" "#+3V8"
+		(property "Reference" "#+3V015"
 			(at 100.33 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -4721,9 +4376,9 @@
 			(uuid "aa8f188d-e365-41b8-aed2-6e2767fba987")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "#+3V8")
+					(reference "#+3V015")
 					(unit 1)
 				)
 			)
@@ -4731,7 +4386,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x05_Odd_Even")
-		(at 213.36 143.51 0)
+		(at 219.71 134.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4741,7 +4396,7 @@
 		(dnp no)
 		(uuid "14587930-a0e8-4156-893a-ac6bd4606f8e")
 		(property "Reference" "SV1"
-			(at 213.868 133.858 0)
+			(at 220.218 124.968 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4751,7 +4406,7 @@
 			)
 		)
 		(property "Value" "SBH11-PBPC-D05-RA-BK"
-			(at 214.63 134.62 0)
+			(at 220.98 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4762,7 +4417,7 @@
 			)
 		)
 		(property "Footprint" "Connector_IDC:IDC-Header_2x05_P2.54mm_Horizontal"
-			(at 213.36 143.51 0)
+			(at 219.71 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4773,7 +4428,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 143.51 0)
+			(at 219.71 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4784,7 +4439,7 @@
 			)
 		)
 		(property "Description" "HEADER 2.54MM R/A 2x5POS"
-			(at 213.36 143.51 0)
+			(at 219.71 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4795,7 +4450,7 @@
 			)
 		)
 		(property "MPN" "SBH11-PBPC-D05-RA-BK"
-			(at 213.36 143.51 0)
+			(at 219.71 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4807,7 +4462,7 @@
 			)
 		)
 		(property "OEPSPN" "OEPS070027"
-			(at 213.36 143.51 0)
+			(at 219.71 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4818,7 +4473,7 @@
 			)
 		)
 		(property "TempCo" ""
-			(at 213.36 143.51 0)
+			(at 219.71 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4829,7 +4484,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 213.36 143.51 0)
+			(at 219.71 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4840,7 +4495,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 213.36 143.51 0)
+			(at 219.71 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4851,7 +4506,7 @@
 			)
 		)
 		(property "OEPS Description" "CONNECTOR:   HEADER 2.54MM R/A 2x5POS   [SBH11-PBPC-D05-RA-BK] [TH]"
-			(at 213.36 143.51 0)
+			(at 219.71 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4892,7 +4547,7 @@
 			(uuid "242e7cb5-31eb-4d48-baa0-9fb78a895c7e")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
 					(reference "SV1")
 					(unit 1)
@@ -4912,7 +4567,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "14bd630c-8d87-430b-aa9b-b4fe7c591927")
-		(property "Reference" "C30"
+		(property "Reference" "C42"
 			(at 67.31 121.285 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5041,9 +4696,9 @@
 			(uuid "e80bdef8-4c6b-437a-857d-d4a3a02d1b95")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "C30")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -5061,7 +4716,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "156cfd15-c01a-4ef5-bd21-138c0eedbe63")
-		(property "Reference" "T8"
+		(property "Reference" "T9"
 			(at 213.36 86.995 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5193,9 +4848,9 @@
 			(uuid "a4c36991-e1e2-43a3-b1e8-940675a5ac01")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "T8")
+					(reference "T9")
 					(unit 1)
 				)
 			)
@@ -5213,7 +4868,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15a4ec91-7cd0-4e39-9134-bb28da6278f7")
-		(property "Reference" "T2"
+		(property "Reference" "T6"
 			(at 49.53 86.995 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5345,9 +5000,9 @@
 			(uuid "59289536-f97a-4ac0-b428-5be60323e505")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "T2")
+					(reference "T6")
 					(unit 1)
 				)
 			)
@@ -5500,7 +5155,7 @@
 			(uuid "9f07fae7-8e07-46f3-a627-57eb8931d52d")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
 					(reference "LED3")
 					(unit 2)
@@ -5519,7 +5174,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1cfdcbc0-7418-498c-94e1-a018fe5b72d9")
-		(property "Reference" "R30"
+		(property "Reference" "R45"
 			(at 199.39 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5646,9 +5301,9 @@
 			(uuid "19e794f9-ddf5-4b42-be9f-ef567899bc1f")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "R30")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -5666,7 +5321,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f331d42-7ad7-4846-af8f-859c7fe7f41a")
-		(property "Reference" "R35"
+		(property "Reference" "R29"
 			(at 160.02 33.655 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5795,9 +5450,9 @@
 			(uuid "b64fad1f-eada-4f0f-a3f8-39fa2ffaa317")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "R35")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -5814,7 +5469,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "21a3834e-8035-421f-ab91-93da6667b522")
-		(property "Reference" "#+3V12"
+		(property "Reference" "#+3V023"
 			(at 267.97 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -5885,9 +5540,9 @@
 			(uuid "75614897-4bc0-4d2d-9864-4754bb33db61")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "#+3V12")
+					(reference "#+3V023")
 					(unit 1)
 				)
 			)
@@ -6040,7 +5695,7 @@
 			(uuid "bfff515a-b7bb-4208-a903-43edb876b5c9")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
 					(reference "LED2")
 					(unit 1)
@@ -6195,7 +5850,7 @@
 			(uuid "96b3bc9c-e636-4503-a99a-4fd59bb65492")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
 					(reference "LED5")
 					(unit 1)
@@ -6347,7 +6002,7 @@
 			(uuid "4da48179-458c-4909-a234-9d4d242e23a0")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
 					(reference "T10")
 					(unit 1)
@@ -6367,7 +6022,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "261c77b9-eed2-4ca2-95a9-fac17a993cdc")
-		(property "Reference" "IC7"
+		(property "Reference" "IC16"
 			(at 123.8819 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6504,9 +6159,9 @@
 			(uuid "84e21c27-caf5-4d86-a2ea-efe3efd017bd")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "IC7")
+					(reference "IC16")
 					(unit 1)
 				)
 			)
@@ -6524,7 +6179,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a155e76-9f15-4eec-81af-24c149ea78e2")
-		(property "Reference" "T6"
+		(property "Reference" "T8"
 			(at 158.75 86.995 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6656,9 +6311,9 @@
 			(uuid "f648874b-a947-40da-aeef-715c5bda6384")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "T6")
+					(reference "T8")
 					(unit 1)
 				)
 			)
@@ -6677,7 +6332,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c63a38a-89fe-411e-8b69-c835ba6b72be")
-		(property "Reference" "#PWR52"
+		(property "Reference" "#PWR078"
 			(at 212.09 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -6736,9 +6391,9 @@
 			(uuid "49d62003-a46c-4aaf-9611-2591a85f1322")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "#PWR52")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -6756,7 +6411,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cb4bfad-f902-4e72-a10a-3b2c9ace1db9")
-		(property "Reference" "R34"
+		(property "Reference" "R28"
 			(at 102.87 33.655 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6885,9 +6540,9 @@
 			(uuid "687b1fdd-f244-42b1-bd4b-0185a68acce4")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "R34")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -6904,7 +6559,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2d3b10a7-d9b1-4cf1-89c6-532b9cd88b60")
-		(property "Reference" "#+3V9"
+		(property "Reference" "#+3V016"
 			(at 157.48 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -6975,9 +6630,9 @@
 			(uuid "904d1546-fa7e-49c9-93c6-beaa3ba70e00")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "#+3V9")
+					(reference "#+3V016")
 					(unit 1)
 				)
 			)
@@ -6996,7 +6651,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d8766c5-e1ef-478a-80f3-96d86fea8b63")
-		(property "Reference" "R27"
+		(property "Reference" "R42"
 			(at 35.56 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7123,9 +6778,9 @@
 			(uuid "a461d129-4700-4407-bfa5-6481b64fe682")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "R27")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -7144,7 +6799,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f2ad92b-15f8-4565-9b05-51e5a4eb16ca")
-		(property "Reference" "#PWR9"
+		(property "Reference" "#PWR070"
 			(at 48.26 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -7203,9 +6858,9 @@
 			(uuid "0ecdc456-0e03-4961-85f1-69cdf6e298d5")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "#PWR9")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -7223,7 +6878,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34c106df-590a-481f-add5-441b643ae306")
-		(property "Reference" "R41"
+		(property "Reference" "R38"
 			(at 102.87 76.835 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7352,9 +7007,9 @@
 			(uuid "1a7b0ca2-f751-491c-a007-c737493f6e44")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "R41")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -7507,7 +7162,7 @@
 			(uuid "38668dcb-6da0-4acc-9a4a-b40915529a66")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
 					(reference "LED1")
 					(unit 2)
@@ -7517,7 +7172,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 207.01 152.4 0)
+		(at 213.36 143.51 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7528,8 +7183,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39d59ee2-f0df-4d8b-938f-1f5b576ac1e7")
-		(property "Reference" "#PWR11"
-			(at 207.01 158.75 0)
+		(property "Reference" "#PWR084"
+			(at 213.36 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7540,7 +7195,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 204.47 153.6699 0)
+			(at 210.82 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7551,7 +7206,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 152.4 0)
+			(at 213.36 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7562,7 +7217,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 152.4 0)
+			(at 213.36 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7573,7 +7228,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 152.4 0)
+			(at 213.36 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7587,9 +7242,9 @@
 			(uuid "cf760d45-5354-4be4-b915-ab6d7b0a9a3b")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "#PWR11")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -7607,7 +7262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4014e453-f263-4790-8a4f-459fbb00e201")
-		(property "Reference" "R33"
+		(property "Reference" "R27"
 			(at 50.8 33.655 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7736,9 +7391,9 @@
 			(uuid "420e7262-db85-4bd4-ad44-656f58a194a8")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "R33")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -7755,7 +7410,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "40b9a143-dde0-460f-bb55-29bd70987694")
-		(property "Reference" "#+3V6"
+		(property "Reference" "#+3V019"
 			(at 48.26 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -7826,9 +7481,9 @@
 			(uuid "b1fcc9b1-1b3c-41a1-bc05-a15c013b475b")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "#+3V6")
+					(reference "#+3V019")
 					(unit 1)
 				)
 			)
@@ -7846,7 +7501,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "453b104d-4775-479f-9a58-391ec438fa98")
-		(property "Reference" "R44"
+		(property "Reference" "R40"
 			(at 214.63 76.835 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7975,9 +7630,9 @@
 			(uuid "87b95df7-094e-4f65-9c25-17e8fbb6a67e")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "R44")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -7995,7 +7650,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45737279-4332-4fb9-b81e-ee56afe5f96a")
-		(property "Reference" "#PWR94"
+		(property "Reference" "#PWR081"
 			(at 48.26 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -8054,9 +7709,9 @@
 			(uuid "b3803e19-7991-4c69-8082-c6939245a194")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "#PWR94")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -8075,7 +7730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46cb80b6-3450-4076-b391-aff188f9d7f0")
-		(property "Reference" "#PWR50"
+		(property "Reference" "#PWR072"
 			(at 157.48 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -8134,9 +7789,9 @@
 			(uuid "0143753d-3693-4688-a91a-5764321265f8")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "#PWR50")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -8289,7 +7944,7 @@
 			(uuid "103e81c5-ba4c-4b0c-87b2-41d54c9d1854")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
 					(reference "LED1")
 					(unit 1)
@@ -8309,7 +7964,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4fae5f54-2866-4778-8916-19c249e83ee4")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR080"
 			(at 121.92 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -8368,9 +8023,9 @@
 			(uuid "a165ddf4-7384-4a7e-900f-be461a86c091")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "#PWR044")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -8388,7 +8043,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "516e8289-fc6f-4249-a4a5-9d5ce9268f2b")
-		(property "Reference" "#PWR46"
+		(property "Reference" "#PWR086"
 			(at 66.04 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -8447,9 +8102,9 @@
 			(uuid "52378a9e-122d-4172-b688-44aa90565989")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "#PWR46")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -8468,7 +8123,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52fda4ce-dbfa-4a20-a629-eef100f036b4")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR088"
 			(at 55.88 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -8527,9 +8182,9 @@
 			(uuid "609e8ec2-f039-4fd6-aeec-3f52cb14126a")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "#PWR07")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -8546,7 +8201,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5cf26af2-c3a4-4b84-b987-e7af30f54091")
-		(property "Reference" "R25"
+		(property "Reference" "R36"
 			(at 254 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8673,89 +8328,9 @@
 			(uuid "604d224a-3f3f-4905-8248-261f25cfe205")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 125.73 167.64 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "602bc223-3a13-4e13-bc96-4c5d46d6b837")
-		(property "Reference" "#PWR62"
-			(at 125.73 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 123.19 168.9099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "16bf02c1-2a3a-477d-b6eb-993e56415d1d")
-		)
-		(instances
-			(project "harp timestamp generator Gen3 v1.4"
-				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "#PWR62")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -8908,7 +8483,7 @@
 			(uuid "489b00bb-e3d7-4294-934e-80ae8a220982")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
 					(reference "LED2")
 					(unit 2)
@@ -8927,7 +8502,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "69cb395f-d9a1-4d3f-86d8-2e7fbbbb5743")
-		(property "Reference" "R28"
+		(property "Reference" "R43"
 			(at 87.63 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9054,158 +8629,9 @@
 			(uuid "d7479aae-45b8-4eb2-afa1-08853fcd0852")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 125.73 161.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7196a86b-dc89-4a92-9b34-7dbe7b776e79")
-		(property "Reference" "C38"
-			(at 121.92 159.385 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 121.92 163.195 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 125.73 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
-			(at 125.73 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CGA2B3X7R1H104K050BB"
-			(at 125.73 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "OEPSPN" "OEPS010016"
-			(at 125.73 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TempCo" "X7R"
-			(at 125.73 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 125.73 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 125.73 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "OEPS Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
-			(at 125.73 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8bc8275b-35a1-441b-9a1c-5de4dab6c440")
-		)
-		(pin "2"
-			(uuid "1325bcfe-c6fd-4487-9add-6458abc54418")
-		)
-		(instances
-			(project "harp timestamp generator Gen3 v1.4"
-				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "C38")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -9222,7 +8648,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "71cb2ffc-32f6-4943-bb3d-f13fd042762a")
-		(property "Reference" "#+3V13"
+		(property "Reference" "#+3V018"
 			(at 267.97 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -9293,9 +8719,9 @@
 			(uuid "0d1a7a01-e628-4f7c-9f45-18bafe11867a")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "#+3V13")
+					(reference "#+3V018")
 					(unit 1)
 				)
 			)
@@ -9448,7 +8874,7 @@
 			(uuid "497dec66-4157-47b4-a3ed-40d1d0b37ded")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
 					(reference "LED3")
 					(unit 1)
@@ -9467,7 +8893,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "87a858cb-1d73-4fd8-a2ab-e0f61df6e626")
-		(property "Reference" "#+3V10"
+		(property "Reference" "#+3V021"
 			(at 157.48 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9538,9 +8964,9 @@
 			(uuid "10e42d80-b0d9-49dd-b7ae-35a8f57742ba")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "#+3V10")
+					(reference "#+3V021")
 					(unit 1)
 				)
 			)
@@ -9558,7 +8984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "899cf1a2-1342-4bb5-ba9d-0aa11b0e532a")
-		(property "Reference" "R40"
+		(property "Reference" "R37"
 			(at 50.8 76.835 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9687,9 +9113,9 @@
 			(uuid "8563d9af-e4ac-4733-90b7-662a6693f21c")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "R40")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -9706,7 +9132,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8a8b49ee-9de7-4222-8b56-d2a1d0e2e444")
-		(property "Reference" "R22"
+		(property "Reference" "R33"
 			(at 86.36 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9833,9 +9259,9 @@
 			(uuid "b2cae968-391e-4e14-94f5-963a5332832a")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "R22")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -9854,7 +9280,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cc31709-3ec5-4a44-9b0c-9c05b60fda85")
-		(property "Reference" "#PWR51"
+		(property "Reference" "#PWR077"
 			(at 157.48 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -9913,9 +9339,9 @@
 			(uuid "3a303d04-09cf-425a-a543-9f41e6aaf5f6")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "#PWR51")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -9932,7 +9358,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9288c139-a3c8-4b0f-87c9-eb73e0d0dc50")
-		(property "Reference" "#+3V14"
+		(property "Reference" "#+3V017"
 			(at 212.09 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -10003,9 +9429,9 @@
 			(uuid "49e60d36-f6e9-4cdd-adb2-eebeea13d966")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "#+3V14")
+					(reference "#+3V017")
 					(unit 1)
 				)
 			)
@@ -10158,7 +9584,7 @@
 			(uuid "b446ef0e-6e3f-4b57-bf68-f43a171101c9")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
 					(reference "LED4")
 					(unit 2)
@@ -10179,7 +9605,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e3dae7d-5681-4395-a752-887e26f49fc2")
-		(property "Reference" "#PWR32"
+		(property "Reference" "#PWR082"
 			(at 63.5 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -10238,89 +9664,9 @@
 			(uuid "223b9764-b9f4-42df-9cf6-ae5751076585")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "#PWR32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 130.81 189.23 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9f2a3627-3f0d-4391-8471-97bccbb0ec24")
-		(property "Reference" "#PWR022"
-			(at 130.81 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 128.27 190.4999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2ecf6223-21ae-473a-80b2-0e6560292711")
-		)
-		(instances
-			(project "harp timestamp generator Gen3 v1.4"
-				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "#PWR022")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -10470,7 +9816,7 @@
 			(uuid "7cb8268b-017d-4f56-8634-d4fe94828e00")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
 					(reference "T1")
 					(unit 1)
@@ -10491,7 +9837,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a320a018-571f-4906-8075-d293481e6ecc")
-		(property "Reference" "#PWR79"
+		(property "Reference" "#PWR074"
 			(at 267.97 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -10550,234 +9896,9 @@
 			(uuid "80e73552-eb11-49c8-82b1-481c97f17c2f")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "#PWR79")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R_US_1")
-		(lib_id "Device:R_US")
-		(at 156.21 179.07 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a3ee8cba-8efe-4695-97a4-78798b3bd806")
-		(property "Reference" "R12"
-			(at 156.21 171.45 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-			)
-		)
-		(property "Value" "100R"
-			(at 156.21 175.26 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 156.21 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SMD 0603 100Ω ±1% 0.333W"
-			(at 156.21 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CRCW0603100RFKEAHP"
-			(at 156.21 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "OEPSPN" "OEPS020042"
-			(at 156.21 179.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TempCo" ""
-			(at 156.21 179.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 156.21 179.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 156.21 179.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "OEPS Description" "RESISTOR:   SMD 0603 100Ω ±1% 0.333W   [CRCW0603100RFKEAHP] [SMD]"
-			(at 156.21 179.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "41d4ed64-239f-4592-b952-0bfc782f5a11")
-		)
-		(pin "2"
-			(uuid "e0d500fd-7e53-40f2-88b8-c4d5c046d5cd")
-		)
-		(instances
-			(project "harp timestamp generator Gen3 v1.4"
-				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 125.73 154.94 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a4b74b03-b280-4dbf-85e3-0fe10e8b917e")
-		(property "Reference" "#P+012"
-			(at 125.73 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Vin"
-			(at 125.476 150.368 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 125.73 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "17c32a6d-4c99-412a-b2f6-bc8ace1c5788")
-		)
-		(instances
-			(project "harp timestamp generator Gen3 v1.4"
-				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "#P+012")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -10795,7 +9916,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9110865-9ab1-4cfe-8117-07002f475e92")
-		(property "Reference" "R36"
+		(property "Reference" "R30"
 			(at 214.63 33.655 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10924,9 +10045,9 @@
 			(uuid "6ac5a06d-33ef-46c1-943c-1444d57643ee")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "R36")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -10945,7 +10066,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9c17596-789b-404a-a9c2-a55aa9f249e6")
-		(property "Reference" "R16"
+		(property "Reference" "R48"
 			(at 68.58 139.065 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11074,9 +10195,9 @@
 			(uuid "7c12ee04-a9b8-4818-9c1a-19be863e4768")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "R16")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -11093,7 +10214,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a9d3d5ec-fbc4-4ab4-9b55-0e3742696cd2")
-		(property "Reference" "R23"
+		(property "Reference" "R34"
 			(at 143.51 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11220,9 +10341,9 @@
 			(uuid "62d1aff5-9038-49b4-9f6e-7dcc8e4676ef")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "R23")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -11239,7 +10360,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aac4a345-e433-4b89-8d71-91190744a43b")
-		(property "Reference" "R21"
+		(property "Reference" "R32"
 			(at 35.56 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11366,9 +10487,9 @@
 			(uuid "b748d1a6-4e06-44ff-abb4-3f5850e43754")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "R21")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -11521,7 +10642,7 @@
 			(uuid "97b6920c-8826-4528-b3bf-30aa817aa2d2")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
 					(reference "LED4")
 					(unit 1)
@@ -11541,7 +10662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0087577-6356-460a-ad23-c5a68ac136c5")
-		(property "Reference" "C31"
+		(property "Reference" "C43"
 			(at 44.45 164.465 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11670,9 +10791,9 @@
 			(uuid "4f70d246-963f-4388-8c35-af8bf6d8db70")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "C31")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -11690,7 +10811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4a4d8a7-8156-4880-a2a2-1a9863392911")
-		(property "Reference" "T7"
+		(property "Reference" "T4"
 			(at 214.63 43.815 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11822,9 +10943,9 @@
 			(uuid "beb84cdd-bf69-4a2e-b16e-756a75e84753")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "T7")
+					(reference "T4")
 					(unit 1)
 				)
 			)
@@ -11842,7 +10963,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b98639bf-1b36-4368-9170-2caf8cef8a34")
-		(property "Reference" "#PWR23"
+		(property "Reference" "#PWR083"
 			(at 127 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -11901,9 +11022,9 @@
 			(uuid "01063ea5-2161-4815-bd81-78cb102a76f8")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "#PWR23")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -11921,7 +11042,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9d40006-8fc5-4ddd-98ec-469ed77f894f")
-		(property "Reference" "R45"
+		(property "Reference" "R41"
 			(at 270.51 76.835 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12050,9 +11171,9 @@
 			(uuid "75572c52-ff1d-4798-9f2e-c1d090e9f657")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "R45")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -12071,7 +11192,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba9f0f4f-4818-47fb-8ce0-f156a37ef4c3")
-		(property "Reference" "#PWR49"
+		(property "Reference" "#PWR076"
 			(at 100.33 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -12130,163 +11251,9 @@
 			(uuid "46cfdc5c-a727-428d-ae97-77772a0c1731")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "#PWR49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "harp_timestamp_generator_Gen3:M74VHC1GT126DF1G")
-		(at 135.89 179.07 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bd1b0c60-8516-449d-a439-af8bfc65a5e2")
-		(property "Reference" "IC8"
-			(at 125.476 181.102 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "M74VHC1GT126DF1G"
-			(at 116.84 184.658 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
-			(at 135.89 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "BUFFER NON-INVERT 1CH 3-STATE"
-			(at 135.89 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "M74VHC1GT126DF1G"
-			(at 135.89 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "OEPSPN" "OEPS080033"
-			(at 135.89 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TempCo" ""
-			(at 135.89 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" ""
-			(at 135.89 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 135.89 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "OEPS Description" "IC:   BUFFER NON-INVERT 1CH 3-STATE   [M74VHC1GT126DF1G] [SC-70-5]"
-			(at 135.89 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "c80ca6a1-69c1-4a3a-8ea3-ec53b8816dbd")
-		)
-		(pin "3"
-			(uuid "9ca69d0d-990d-4570-9246-f957d121d5d7")
-		)
-		(pin "4"
-			(uuid "bf263835-7378-40e5-9d36-798abfd0521c")
-		)
-		(pin "2"
-			(uuid "501ae0e4-90fd-4f71-9711-710eae0c1dab")
-		)
-		(pin "1"
-			(uuid "558f1d2a-ba94-4481-9e1b-126a26084373")
-		)
-		(instances
-			(project "harp timestamp generator Gen3 v1.4"
-				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "IC8")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -12439,7 +11406,7 @@
 			(uuid "01f12c23-bf84-4260-8094-82345768d52a")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
 					(reference "LED5")
 					(unit 2)
@@ -12458,7 +11425,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bec7d443-bdcf-4326-925e-da3d5ec4a90a")
-		(property "Reference" "#+3V11"
+		(property "Reference" "#+3V022"
 			(at 212.09 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -12529,9 +11496,9 @@
 			(uuid "99b8721a-b9c7-4181-b8b1-bf3d09432838")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "#+3V11")
+					(reference "#+3V022")
 					(unit 1)
 				)
 			)
@@ -12548,7 +11515,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c0cea248-7e51-494f-9763-16af810e14a0")
-		(property "Reference" "IC9"
+		(property "Reference" "IC18"
 			(at 50.546 181.102 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12683,9 +11650,9 @@
 			(uuid "f7d1bf97-3f92-4082-a09f-f1dfd87c773f")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "IC9")
+					(reference "IC18")
 					(unit 1)
 				)
 			)
@@ -12703,7 +11670,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3fe3a6f-ed72-4364-a422-4a491e8d5083")
-		(property "Reference" "C37"
+		(property "Reference" "C41"
 			(at 118.11 116.205 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12832,9 +11799,9 @@
 			(uuid "8628dab9-c770-449d-b78c-2d8f99219859")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "C37")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -12852,7 +11819,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5be0663-1090-4d37-ad3e-6aacd935f3d2")
-		(property "Reference" "#P+02"
+		(property "Reference" "#P+021"
 			(at 48.26 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -12910,9 +11877,9 @@
 			(uuid "ac1aeba2-133e-464b-9682-44f345e85c49")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "#P+02")
+					(reference "#P+021")
 					(unit 1)
 				)
 			)
@@ -12930,7 +11897,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c68c4cdb-83bd-4285-a082-abcbeec779fa")
-		(property "Reference" "#+3V26"
+		(property "Reference" "#+3V024"
 			(at 63.5 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -13001,9 +11968,9 @@
 			(uuid "52c9494f-4c44-4bf7-95c2-fc1f5ba54e53")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "#+3V26")
+					(reference "#+3V024")
 					(unit 1)
 				)
 			)
@@ -13021,7 +11988,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ca1382de-2d62-4fc9-9b71-e3a76739b616")
-		(property "Reference" "IC10"
+		(property "Reference" "IC17"
 			(at 48.26 138.938 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13158,9 +12125,9 @@
 			(uuid "c73af24b-1764-40c1-b5b5-0b587f635337")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "IC10")
+					(reference "IC17")
 					(unit 1)
 				)
 			)
@@ -13177,7 +12144,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cba46c3c-c435-419e-a4e7-2fc5f66262c8")
-		(property "Reference" "R29"
+		(property "Reference" "R44"
 			(at 144.78 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13304,9 +12271,9 @@
 			(uuid "62333b83-6dd2-4dab-b1f3-7fdb6c8002c7")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "R29")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -13325,7 +12292,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d30d5890-073a-4f4e-a218-44d3bbf19315")
-		(property "Reference" "#PWR48"
+		(property "Reference" "#PWR071"
 			(at 100.33 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -13384,9 +12351,9 @@
 			(uuid "75fb16a3-beb5-447f-a4de-6f87cfe5d933")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "#PWR48")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -13404,7 +12371,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d5b94e3f-7740-4d50-9451-2f5b09c37a37")
-		(property "Reference" "#P+06"
+		(property "Reference" "#P+019"
 			(at 127 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -13462,9 +12429,9 @@
 			(uuid "36ef58a7-3d6e-447f-8025-a2b41552fbe3")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "#P+06")
+					(reference "#P+019")
 					(unit 1)
 				)
 			)
@@ -13483,7 +12450,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d93a0f0e-277c-499f-b114-c8d0a9433701")
-		(property "Reference" "#PWR102"
+		(property "Reference" "#PWR079"
 			(at 267.97 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -13542,9 +12509,9 @@
 			(uuid "c964a5da-455b-4c1f-95e0-a87d2ff384b0")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "#PWR102")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -13552,7 +12519,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 224.79 148.59 0)
+		(at 231.14 139.7 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -13562,8 +12529,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "de17b246-16d2-49ae-95bb-a4ff72cf60f6")
-		(property "Reference" "#P+017"
-			(at 224.79 148.59 0)
+		(property "Reference" "#P+020"
+			(at 231.14 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13574,7 +12541,7 @@
 			)
 		)
 		(property "Value" "Vin"
-			(at 227.076 145.796 0)
+			(at 233.426 136.906 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13584,7 +12551,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 148.59 0)
+			(at 231.14 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13595,7 +12562,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 148.59 0)
+			(at 231.14 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13606,7 +12573,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 224.79 148.59 0)
+			(at 231.14 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13620,9 +12587,9 @@
 			(uuid "3e0fe1c1-b7c5-4dde-8002-238cb34afff9")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "#P+017")
+					(reference "#P+020")
 					(unit 1)
 				)
 			)
@@ -13641,7 +12608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1fe7fdf-7359-4e72-b973-00fab73eb326")
-		(property "Reference" "#PWR6"
+		(property "Reference" "#PWR087"
 			(at 48.26 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -13700,9 +12667,9 @@
 			(uuid "9ecec8cf-3cd4-414b-b217-c0eb6cb68241")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "#PWR6")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -13720,7 +12687,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e54bb9ed-fd72-4a3c-80a5-896cd0636aad")
-		(property "Reference" "T5"
+		(property "Reference" "T3"
 			(at 160.02 43.815 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13852,9 +12819,9 @@
 			(uuid "eb420d45-ee31-4ebb-b265-b97990e6c99c")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "T5")
+					(reference "T3")
 					(unit 1)
 				)
 			)
@@ -13872,7 +12839,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e703e99a-daf7-4c83-9c6d-43026b2d7c3b")
-		(property "Reference" "R37"
+		(property "Reference" "R31"
 			(at 270.51 33.655 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14001,9 +12968,9 @@
 			(uuid "efc025ea-3a2e-4a43-a6a2-910f023aaedf")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "R37")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -14022,7 +12989,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8750840-03e1-4407-bd4a-733c29cdf611")
-		(property "Reference" "#PWR14"
+		(property "Reference" "#PWR075"
 			(at 48.26 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -14081,9 +13048,9 @@
 			(uuid "e38e40a6-8302-496f-b729-9c09155391f2")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "#PWR14")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -14101,7 +13068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eea1612f-75b8-4023-a756-039540961b78")
-		(property "Reference" "T3"
+		(property "Reference" "T2"
 			(at 102.87 43.815 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14233,9 +13200,9 @@
 			(uuid "faf0c577-76c3-4a08-ad85-9a06f3e27009")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "T3")
+					(reference "T2")
 					(unit 1)
 				)
 			)
@@ -14254,7 +13221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6dda853-c547-4d5c-aec7-f3a18747a70a")
-		(property "Reference" "#PWR47"
+		(property "Reference" "#PWR073"
 			(at 212.09 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -14313,9 +13280,9 @@
 			(uuid "9e042403-b54f-47e8-9c0e-3e9362fac756")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "#PWR47")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -14332,7 +13299,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f96c6638-ffad-439c-8628-2b563054ce0d")
-		(property "Reference" "#+3V5"
+		(property "Reference" "#+3V014"
 			(at 48.26 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -14403,9 +13370,9 @@
 			(uuid "90cd79b5-7a48-48bd-b6f3-bc8df09c69da")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "#+3V5")
+					(reference "#+3V014")
 					(unit 1)
 				)
 			)
@@ -14422,7 +13389,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fe50772b-f84d-42c5-9ac0-8a19f3fe7b1f")
-		(property "Reference" "R24"
+		(property "Reference" "R35"
 			(at 198.12 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14549,9 +13516,9 @@
 			(uuid "e0514a87-fdea-4fb4-8351-232a4e4add99")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "R24")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -14569,7 +13536,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff1d9340-055e-4c00-ace5-75f8a092819d")
-		(property "Reference" "R42"
+		(property "Reference" "R39"
 			(at 160.02 76.835 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14698,9 +13665,9 @@
 			(uuid "cb66b7c0-39d8-42a9-8d71-539552f5a382")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "R42")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -14717,7 +13684,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ff6cf63b-2ffc-43cd-8137-aa2ee35a2856")
-		(property "Reference" "#+3V7"
+		(property "Reference" "#+3V020"
 			(at 100.33 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -14788,9 +13755,9 @@
 			(uuid "5586bc2c-3c6f-4bb2-99a5-560dc161919b")
 		)
 		(instances
-			(project "harp timestamp generator Gen3 v1.4"
+			(project "harp timestamp generator Gen3"
 				(path "/37f4656a-fc1e-403f-990e-8468cac940f2/95e2c766-f78a-424c-954a-4aa4c2912e61/d5c0e165-068a-4688-8428-6e89bf011619"
-					(reference "#+3V7")
+					(reference "#+3V020")
 					(unit 1)
 				)
 			)
